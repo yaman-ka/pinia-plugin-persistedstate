@@ -69,6 +69,8 @@ export const useStore = defineStore(
 ```
 :::
 
-
+:::warning
+In setup syntax only returned const are being persisted.
+:::
 
 Your whole store will now be saved with the [default persistence settings](/guide/config).
